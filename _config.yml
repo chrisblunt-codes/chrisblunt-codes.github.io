@@ -8,6 +8,11 @@ minima:
 
 show_excerpts: true
 
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-avatar
+
 social_links:
-  - { platform: github,  user_url: "https://github.com/chrisblunt-codes" }
-  - { platform: email,   user_url: "mailto:contact@chrisblunt.codes" }
+  - { platform: github, user_url: "https://github.com/chrisblunt-codes" }
+  - { platform: email,  user_url: "mailto:contact@chrisblunt.codes" }
