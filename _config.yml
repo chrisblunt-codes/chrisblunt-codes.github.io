@@ -1,7 +1,9 @@
 title: Chris Blunt Codes
 description: Updates on my projects
-theme: minima
 markdown: kramdown
+
+# Use a minima that actually supports skins
+remote_theme: jekyll/minima@v2.5.1
 
 minima:
   skin: dark
@@ -12,6 +14,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-avatar
+  - jekyll-remote-theme
 
 social_links:
   - { platform: github, user_url: "https://github.com/chrisblunt-codes" }
