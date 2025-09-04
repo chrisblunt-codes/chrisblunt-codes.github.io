@@ -1,0 +1,7 @@
+---
+# leave this front matter block in place
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
