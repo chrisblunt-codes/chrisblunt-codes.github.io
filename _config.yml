@@ -5,4 +5,9 @@ markdown: kramdown
 
 minima:
   skin: dark
-  
+
+show_excerpts: true
+
+social_links:
+  - { platform: github,  user_url: "https://github.com/chrisblunt-codes" }
+  - { platform: email,   user_url: "mailto:contact@chrisblunt.codes" }
