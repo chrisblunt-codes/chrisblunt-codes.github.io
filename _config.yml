@@ -2,8 +2,7 @@ title: Chris Blunt Codes
 description: Updates on my projects
 markdown: kramdown
 
-# Use a minima that actually supports skins
-remote_theme: jekyll/minima@v2.5.1
+remote_theme: jekyll/minima
 
 minima:
   skin: dark
