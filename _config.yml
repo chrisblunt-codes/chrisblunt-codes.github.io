@@ -2,3 +2,7 @@ title: Chris Blunt Codes
 description: Updates on my projects
 theme: minima
 markdown: kramdown
+
+minima:
+  skin: dark
+  
