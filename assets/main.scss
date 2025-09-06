@@ -1,25 +1,28 @@
----
-# leave this front matter block in place
----
+/* base background */
+html, body { background: #0d121b !important; }
 
-@import
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";
-
-body {
-  background: #0d121b !important;
-}
-
+/* kill white panels that hide the body background */
 .site-header,
 .site-footer,
-.page-content {
+.page-content,
+.wrapper,
+.post,
+.post-list > li,
+.post-content,
+.home,
+.archive,
+.site-nav {
   background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
 }
 
-body, .post-title, .site-title, .page-link {
+/* keep code blocks readable on dark */
+.highlight, pre, code {
+  background: #0b0f16 !important;
+}
+
+/* text colors so it’s legible */
+body, .post-title, .site-title, .page-link, .post-link, .post-meta {
   color: #d8dee9 !important;
 }
-
-.site-header { border: 0 !important; box-shadow: none !important; }
-
-body, .post-title, .site-title, .page-link { color: #d8dee9 !important; }
