@@ -9,6 +9,6 @@ title: "Home"
   <p style="opacity: 0.8; margin-top: .25rem;">Open-source notes & releases</p>
 </div>
 
-Hi, welcome to **Chris Blunt Codes**.  
+Welcome to **Chris Blunt Codes**.  
 
 This is where I post quick updates about my open-source projects.
