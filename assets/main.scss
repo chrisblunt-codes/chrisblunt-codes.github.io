@@ -1,7 +1,10 @@
 ---
-# leave this front matter block in place
+# keep this front matter so GitHub Pages compiles SCSS
 ---
 
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+/* overrides AFTER imports */
+html, body { background:#0d121b !important; }
