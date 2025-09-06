@@ -5,6 +5,10 @@ date: 2025-09-06
 tags: [crystal, email, open-source, mailarchiver]
 ---
 
+<style>
+  html, body { background:#0d121b !important; }
+</style>
+
 Today I released version **0.2.0** of **mailarchiver**, a lightweight Crystal application that fetches, indexes, and archives email messages via POP3.  
 It stores messages as `.eml` files and indexes headers in SQLite with FTS5 for fast search.
 
