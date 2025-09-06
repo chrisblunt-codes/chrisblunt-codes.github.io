@@ -9,3 +9,13 @@
 body {
   background: #0d121b !important;
 }
+
+.site-header,
+.site-footer,
+.page-content {
+  background: transparent !important;
+}
+
+body, .post-title, .site-title, .page-link {
+  color: #d8dee9 !important;
+}
