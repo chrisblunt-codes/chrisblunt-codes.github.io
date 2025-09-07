@@ -5,8 +5,6 @@ date: 2025-09-06
 tags: [crystal, email, mime, crystal-mime, open-source, mailarchiver]
 ---
 
-# Fixing Crystal MIME: Attachments + Charset Handling
-
 When you start dealing with real-world email, you quickly learn that the happy-path examples never survive contact with the messy stuff people actually send.
 
 I ran head-first into this while building my **MailVault** project (a lightweight mail archiver). I needed to parse `.eml` files, extract text cleanly, and save attachments reliably. The stock [`crystal-mime`](https://github.com/aluminumio/crystal-mime) shard handled basic text bodies, but it fell a bit short on two fronts:
